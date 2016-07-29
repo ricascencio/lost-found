@@ -1,0 +1,21 @@
+{
+  "name": "lost-found",
+  "version": "1.0.0",
+  "description": "App to log, search lost/found objects.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lost",
+    "found"
+  ],
+  "author": "Ricardo Ascencio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}
