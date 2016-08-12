@@ -1,0 +1,22 @@
+.rowDiv {
+	position: relative;
+	width: 600px;
+	height: 35px;
+}
+.leftDiv {
+	position: absolute;
+	left: 0;
+	width: 50%;
+}
+.rightDiv {
+	position: absolute;
+	right: 0;
+	width: 50%;
+}
+.objectsDiv {
+	position: relative;
+	border: 1px solid;
+	width: 620px;
+	margin: 5px 5px;
+	padding: 5px 5px;
+}

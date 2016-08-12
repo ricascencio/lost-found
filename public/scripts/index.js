@@ -91,9 +91,10 @@ var ObjectForm = React.createClass({
 
 		if(this.state.owner.split() !== ''){
 			console.log(this.state.owner);
-			item.concat()
+			item.concat();
 		}
-	}
+		console.log(item);
+	},
 	handleSubmit: function(e){
 		e.preventDefault();
 		var item = {
@@ -101,7 +102,7 @@ var ObjectForm = React.createClass({
 					descripcion:this.state.descripcion,
 					ubicacion:this.state.ubicacion
 
-				};
+				};		
 		console.log(item);
 	},
 	render: function(){
@@ -143,9 +144,9 @@ var ObjectForm = React.createClass({
 								Color <input type="text" placeholder="color"  onChange={this.handleColorChange}/>&nbsp;
 								<input type="button" value="+"/>
 								<input type="button" value="-" disabled="true"/>
-							</div>
-							<input type="button" value="Agregar objeto" onClick={this.handleAgregarObjeto}/>
+							</div>							
 						</div>
+						<input type="button" value="Agregar objeto" onClick={this.handleAgregarObjeto}/>
 					</div>
 					<input type="button" value="Registrar" onClick={this.handleSubmit}/>
 				</form>
